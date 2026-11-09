@@ -49,7 +49,12 @@
       "https://www.linkedin.com/in/saswatsomyasahu",
       "https://github.com/saswatsomyasahu"
     ],
-    "knowsAbout": ["PHP", "Node.js", "React", "AWS", "Docker", "FastAPI", "RAG", "MySQL", "DevOps"]
+    "knowsAbout": ["PHP", "Node.js", "React", "AWS", "Docker", "FastAPI", "RAG", "MySQL", "DevOps"],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "National Institute of Electronics and Information Technology (NIELIT)",
+      "department": "Ministry of Electronics and Information Technology (MeitY), Government of India"
+    }
   }
   </script>
 </head>
@@ -105,7 +110,7 @@
             I build <span id="typewriter" class="text-gradient font-mono" aria-live="polite"></span><span class="type-cursor font-mono">|</span>
           </p>
           <p class="lead text-body-secondary mb-4">
-            <strong class="text-light">2+ years at NIELIT</strong> — enterprise PHP/MySQL MIS, Razorpay payments, exam servers for <strong>15,000+</strong> candidates.
+            <strong class="text-light">2+ years at NIELIT Bhubaneswar</strong> (MeitY, Government of India) — enterprise PHP/MySQL MIS, Razorpay payments, exam servers for <strong>15,000+</strong> candidates.
             Public demos: <strong>Docker</strong>, <strong>GitHub Actions</strong>, and <strong>RAG / LLM</strong> APIs on GitHub.
           </p>
           <div class="d-flex flex-wrap gap-2 mb-4">
@@ -163,7 +168,7 @@
             <div class="glass-card h-100">
               <div class="icon-wrap mb-3"><i class="bi bi-building"></i></div>
               <h3 class="h5">Enterprise delivery</h3>
-              <p class="text-body-secondary">Junior Software Developer at <strong>NIELIT Bhubaneswar</strong> — student MIS, payment hubs, multi-centre admissions, biometrics, and government scheme reporting.</p>
+              <p class="text-body-secondary">Junior Software Developer at <strong>NIELIT Bhubaneswar</strong> — National Institute of Electronics and Information Technology, under <strong>MeitY</strong>, <strong>Government of India</strong>. Student MIS, payment hubs, multi-centre admissions, biometrics, and government scheme reporting.</p>
               <ul class="text-body-secondary small mb-0">
                 <li>Role-based access control (RBAC)</li>
                 <li>Razorpay webhooks &amp; signed APIs</li>
@@ -195,7 +200,8 @@
             <div class="glass-card">
               <span class="badge text-bg-dark border font-mono mb-2">Feb 2025 – Present</span>
               <h3 class="h5">Junior Software Developer</h3>
-              <p class="text-accent small mb-2">NIELIT Bhubaneswar</p>
+              <p class="text-accent small mb-1">NIELIT Bhubaneswar</p>
+              <p class="text-body-secondary small mb-2"><span class="badge text-bg-dark border font-mono" style="border-color: rgba(0,229,200,.35)!important;color:#00e5c8;font-size:.7rem;">MeitY · Govt. of India</span></p>
               <p class="text-body-secondary small mb-0">PHP/MySQL MIS, Razorpay portal, batch &amp; scheme reporting, biometric integration, production support.</p>
             </div>
           </article>
@@ -204,7 +210,8 @@
             <div class="glass-card">
               <span class="badge text-bg-dark border font-mono mb-2">Feb 2024 – Feb 2025</span>
               <h3 class="h5">Junior Resource Person (Technical Assistant)</h3>
-              <p class="text-accent small mb-2">NIELIT · Exam &amp; residential servers</p>
+              <p class="text-accent small mb-1">NIELIT Bhubaneswar</p>
+              <p class="text-body-secondary small mb-2"><span class="badge text-bg-dark border font-mono" style="border-color: rgba(0,229,200,.35)!important;color:#00e5c8;font-size:.7rem;">MeitY · Govt. of India</span></p>
               <p class="text-body-secondary small mb-0">Linux servers, networking, backups, exam-day ops for thousands of candidates; external examiner duties.</p>
             </div>
           </article>
@@ -217,39 +224,69 @@
         <div class="section-head" data-aos="fade-up">
           <span class="section-tag font-mono">// projects</span>
           <h2 class="section-title">Featured work &amp; demos</h2>
+          <p class="text-body-secondary">Click <strong class="text-light">View details</strong> for full descriptions, stack and bullet points.</p>
         </div>
         <div class="row g-4">
-          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="0">
-            <article class="project-card h-100 position-relative">
-              <span class="project-label cloud"><i class="bi bi-cloud-arrow-up"></i> Cloud / DevOps</span>
-              <h3 class="h4 mt-3"><a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/cloud-api" class="stretched-link text-decoration-none text-light">Cloud API</a></h3>
-              <p class="text-body-secondary">Express REST API, Docker Compose, health checks, GitHub Actions — built for AWS EC2 or Railway deploy.</p>
-              <div class="chip-row font-mono"><span>Docker</span><span>Node.js</span><span>CI/CD</span></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <article class="project-card h-100 d-flex flex-column">
+              <span class="project-label php"><i class="bi bi-mortarboard"></i> Enterprise</span>
+              <h3 class="h5 mt-3 text-light">NIELIT Student MIS</h3>
+              <p class="text-body-secondary small flex-grow-1">7,000+ candidates · registration, batches, RBAC, reporting.</p>
+              <a href="projects/nielit-mis.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
             </article>
           </div>
-          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="100">
-            <article class="project-card h-100 ai-border">
-              <span class="project-label ai"><i class="bi bi-robot"></i> AI · RAG</span>
-              <h3 class="h4 mt-3 text-light">Document AI Assistant</h3>
-              <p class="text-body-secondary">PDF upload, ChromaDB vectors, LLM Q&amp;A — FastAPI + web UI when you run it locally.</p>
-              <div class="d-flex flex-wrap gap-2 mt-3">
-                <a href="demos/document-ai-assistant/" class="btn btn-sm btn-accent">Demo page</a>
-                <a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/document-ai-assistant" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener noreferrer">GitHub</a>
-              </div>
-              <div class="chip-row font-mono"><span>FastAPI</span><span>ChromaDB</span><span>LLM</span></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+            <article class="project-card h-100 d-flex flex-column">
+              <span class="project-label php"><i class="bi bi-credit-card"></i> Payments</span>
+              <h3 class="h5 mt-3 text-light">Central Payment Portal</h3>
+              <p class="text-body-secondary small flex-grow-1">Razorpay, webhooks, HMAC, hub-to-MIS integration.</p>
+              <a href="projects/payment-portal.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
             </article>
           </div>
-          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="200">
-            <article class="project-card h-100 position-relative">
-              <span class="project-label php"><i class="bi bi-database"></i> Enterprise</span>
-              <h3 class="h4 mt-3 text-light">NIELIT MIS &amp; Payments</h3>
-              <p class="text-body-secondary">Production systems (not public): 7k+ registrations, Razorpay hub, exam infra — patterns echoed in portfolio demos.</p>
-              <div class="chip-row font-mono"><span>PHP</span><span>MySQL</span><span>Razorpay</span></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="project-card h-100 d-flex flex-column">
+              <span class="project-label cloud"><i class="bi bi-camera-video"></i> Infrastructure</span>
+              <h3 class="h5 mt-3 text-light">Online Classes (Jitsi)</h3>
+              <p class="text-body-secondary small flex-grow-1">Self-hosted Jitsi, Nginx, JWT, portal integration.</p>
+              <a href="projects/jitsi-online-classes.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <article class="project-card h-100 d-flex flex-column ai-border">
+              <span class="project-label ai"><i class="bi bi-phone"></i> ML / Mobile</span>
+              <h3 class="h5 mt-3 text-light">OMR Android App</h3>
+              <p class="text-body-secondary small flex-grow-1">NIST academic — image ML OMR sheet checking.</p>
+              <a href="projects/omr-android.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="project-card h-100 d-flex flex-column">
+              <span class="project-label cloud"><i class="bi bi-cloud-sun"></i> IoT</span>
+              <h3 class="h5 mt-3 text-light">Weather Station</h3>
+              <p class="text-body-secondary small flex-grow-1">Sensors → Node.js API → React dashboard.</p>
+              <a href="projects/iot-weather.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+            <article class="project-card h-100 d-flex flex-column">
+              <span class="project-label cloud"><i class="bi bi-cloud-arrow-up"></i> Open source</span>
+              <h3 class="h5 mt-3 text-light">Cloud API</h3>
+              <p class="text-body-secondary small flex-grow-1">Docker, Express, GitHub Actions CI.</p>
+              <a href="projects/cloud-api.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <article class="project-card h-100 d-flex flex-column ai-border">
+              <span class="project-label ai"><i class="bi bi-robot"></i> Open source</span>
+              <h3 class="h5 mt-3 text-light">Document AI (RAG)</h3>
+              <p class="text-body-secondary small flex-grow-1">FastAPI, ChromaDB, PDF Q&amp;A with LLM.</p>
+              <a href="projects/document-ai-assistant.html" class="btn btn-sm btn-accent mt-3 align-self-start">View details</a>
             </article>
           </div>
         </div>
-        <p class="text-center mt-4 text-body-secondary" data-aos="fade-up">
-          <a href="https://github.com/saswatsomyasahu/saswat" class="link-accent"><i class="bi bi-box-arrow-up-right me-1"></i> Full repository</a>
+        <p class="text-center mt-4" data-aos="fade-up">
+          <a href="projects/index.html" class="btn btn-outline-light me-2">Browse all projects</a>
+          <a href="https://github.com/saswatsomyasahu/saswat" class="link-accent"><i class="bi bi-github me-1"></i> Source on GitHub</a>
         </p>
       </div>
     </section>
