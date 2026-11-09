@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - APP_NAME=cloud-api-portfolio
+    restart: unless-stopped

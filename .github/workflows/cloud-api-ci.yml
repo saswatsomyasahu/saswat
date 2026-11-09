@@ -1,0 +1,31 @@
+name: cloud-api CI
+
+on:
+  push:
+    paths:
+      - "projects/cloud-api/**"
+      - ".github/workflows/cloud-api-ci.yml"
+  pull_request:
+    paths:
+      - "projects/cloud-api/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/cloud-api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: projects/cloud-api/package-lock.json
+      - run: npm install
+      - run: npm run lint
+      - name: Smoke test server
+        run: |
+          npm start &
+          sleep 2
+          curl -sf http://127.0.0.1:3000/health

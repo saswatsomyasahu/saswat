@@ -1,0 +1,7 @@
+*.docx
+*.pdf
+.env
+.venv/
+node_modules/
+__pycache__/
+projects/**/data/
