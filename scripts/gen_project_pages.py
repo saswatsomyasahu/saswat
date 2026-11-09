@@ -3,9 +3,11 @@ from pathlib import Path
 
 OUT = Path(r"d:\Projects\portfolies\docs\projects")
 
+MEITY_FULL = "Ministry of Electronics and Information Technology (MeitY), Government of India"
+
 NIELIT_ORG = (
     "National Institute of Electronics and Information Technology (NIELIT), Bhubaneswar — "
-    "Ministry of Electronics and Information Technology (MeitY), Government of India"
+    + MEITY_FULL
 )
 
 PROJECTS = [
@@ -174,8 +176,9 @@ def render(p: dict) -> str:
     if p.get("meity"):
         meity_badge = (
             '<p class="mb-2">'
-            '<span class="badge text-bg-dark border font-mono" style="border-color: rgba(0,229,200,.35)!important;color:#00e5c8;">'
-            '<i class="bi bi-shield-check me-1"></i> MeitY · Government of India'
+            '<span class="badge badge-meity text-bg-dark border font-mono text-wrap text-start lh-sm" '
+            'style="border-color: rgba(0,229,200,.35)!important;color:#00e5c8;max-width:100%;white-space:normal;">'
+            f'<i class="bi bi-shield-check me-1"></i> {MEITY_FULL}'
             "</span></p>"
         )
 
