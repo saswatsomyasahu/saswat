@@ -2,71 +2,60 @@
 
 **Software Developer | PHP, Node.js, React | Cloud & AI**
 
-Public demos and infrastructure code that showcase enterprise web development, cloud deployment, and AI application engineering. Institutional work at NIELIT is not published here; these projects are **original implementations** of similar patterns (auth, APIs, payments concepts, document Q&A).
+[![Portfolio site](https://img.shields.io/badge/Portfolio-live-00e5c8?style=for-the-badge&logo=githubpages&logoColor=black)](https://saswatsomyasahu.github.io/saswat/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saswatsomyasahu)
 
-| Focus | What recruiters see |
-|--------|---------------------|
-| Full stack | REST APIs, React UI, MySQL/SQLite |
-| Cloud / DevOps | Docker, AWS-ready deploy notes, GitHub Actions CI |
-| AI apps | RAG chatbot over your own documents (LLM API) |
+Public demos and infrastructure code: enterprise-style **PHP/MySQL**, **Node.js**, **Docker/CI**, and **RAG/LLM** apps.  
+Production work: **NIELIT Bhubaneswar** (Ministry of Electronics and Information Technology — MeitY, Government of India).
 
-## Projects
+## Live links
 
-| # | Project | Stack | Status |
-|---|---------|-------|--------|
-| 1 | [Cloud API + Docker](./projects/cloud-api/) | Node.js, Express, Docker, GitHub Actions | Starter — deploy to EC2 |
-| 2 | [Document AI Assistant (RAG)](./projects/document-ai-assistant/) | Python, FastAPI, ChromaDB, Docker | Starter — add API key & run |
-| 3 | [Portfolio website](./docs/) | Static HTML (GitHub Pages) | Enable Pages → `/docs` |
+| Link | URL |
+|------|-----|
+| **Portfolio website** | https://saswatsomyasahu.github.io/saswat/ |
+| **All projects (detail pages)** | https://saswatsomyasahu.github.io/saswat/projects/ |
+| **Cloud API** | [`projects/cloud-api`](./projects/cloud-api/) |
+| **Document AI (RAG)** | [`projects/document-ai-assistant`](./projects/document-ai-assistant/) |
+
+> **GitHub Pages:** enable under **Settings → Pages → Source: GitHub Actions** (workflow included). See [docs/GITHUB_PAGES.md](./docs/GITHUB_PAGES.md).
+
+## Repository layout
+
+| Path | Description |
+|------|-------------|
+| [`docs/`](./docs/) | Bootstrap portfolio site (GitHub Pages) |
+| [`docs/projects/`](./docs/projects/) | Per-project detail pages (MIS, payments, Jitsi, OMR, IoT, cloud, AI) |
+| [`projects/cloud-api`](./projects/cloud-api/) | Node + Docker + Actions CI |
+| [`projects/document-ai-assistant`](./projects/document-ai-assistant/) | FastAPI RAG + web UI |
+| [`profile-readme/`](./profile-readme/) | Copy to `github.com/saswatsomyasahu/saswatsomyasahu` for profile README |
+| [`PORTFOLIO_PLAN.md`](./PORTFOLIO_PLAN.md) | Build roadmap |
 
 ## Quick start (local)
 
 ```bash
-# Cloud API
-cd projects/cloud-api
-cp .env.example .env
-npm install && npm run dev
+# Portfolio site
+cd docs && python -m http.server 8080
 
-# Document AI (needs OPENAI_API_KEY or compatible endpoint in .env)
+# Cloud API
+cd projects/cloud-api && npm install && npm run dev
+
+# Document AI
 cd projects/document-ai-assistant
-python -m venv .venv
-.venv\Scripts\activate   # Windows
-pip install -r requirements.txt
-cp .env.example .env
+python -m venv .venv && .venv\Scripts\activate
+pip install -r requirements.txt && cp .env.example .env
 uvicorn app.main:app --reload
 ```
 
-## Deploy on GitHub
+## Suggested GitHub repo topics
 
-1. Repo: **[github.com/saswatsomyasahu/saswat](https://github.com/saswatsomyasahu/saswat)**
-2. From this folder (first time):
-
-```bash
-git init
-git add README.md PORTFOLIO_PLAN.md .gitignore .github projects
-git commit -m "Add portfolio hub and starter cloud/AI projects"
-git branch -M main
-git remote add origin https://github.com/saswatsomyasahu/saswat.git
-git push -u origin main
-```
-
-3. Pin this repo on your GitHub profile and add the link to your CV and LinkedIn.
-
-5. **Live site:** turn on GitHub Pages from the `/docs` folder — steps in [docs/GITHUB_PAGES.md](./docs/GITHUB_PAGES.md) → **https://saswatsomyasahu.github.io/saswat/**
-
-6. **Profile README:** copy [profile-readme/README.md](./profile-readme/README.md) into a new repo named `saswatsomyasahu` — see [profile-readme/SETUP.md](./profile-readme/SETUP.md).
-
-4. **Optional API demos:** deploy `cloud-api` to AWS EC2 or Railway; deploy `document-ai-assistant` behind Docker on the same host (see each project's `DEPLOY.md`).
-
-## Roadmap
-
-See [PORTFOLIO_PLAN.md](./PORTFOLIO_PLAN.md) for a week-by-week build order, screenshots checklist, and what to add to your CV after each milestone.
+`portfolio` `php` `nodejs` `docker` `fastapi` `rag` `devops` `remote-developer` `fullstack-developer` `mongodb` `django` `laravel`
 
 ## Contact
 
-- Email: saswatsomya111@gmail.com
-- LinkedIn: [linkedin.com/in/saswatsomyasahu](https://linkedin.com/in/saswatsomyasahu)
-- Location: Bhubaneswar, Odisha — open to **remote** roles
+- **Email:** saswatsomya111@gmail.com  
+- **LinkedIn:** [linkedin.com/in/saswatsomyasahu](https://linkedin.com/in/saswatsomyasahu)  
+- **Location:** Bhubaneswar, Odisha — **open to remote**
 
 ---
 
-*Built for Cloud Support, Junior DevOps, Full Stack PHP/Node, and AI Application Developer roles — target compensation ₹40–45k/month (open to discussion).*
+*Full Stack PHP/Node · Junior DevOps · Cloud & AI application roles.*

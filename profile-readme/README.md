@@ -6,7 +6,7 @@
 
 **Software Developer | PHP, Node.js, React | Cloud & AI**
 
-Junior developer with **2+ years at NIELIT Bhubaneswar** building enterprise MIS, payments, and exam infrastructure — plus hands-on **Linux, AWS, Docker**, and ML/IoT projects.
+Junior developer with **2+ years at NIELIT Bhubaneswar** (National Institute of Electronics and Information Technology), under the **Ministry of Electronics and Information Technology (MeitY), Government of India** — enterprise MIS, Razorpay payments, and exam infrastructure for **15,000+** candidates.
 
 🟢 **Open to remote work** — Full Stack PHP/Node, Junior DevOps / Cloud Support, AI Application Developer  
 📍 Bhubaneswar, Odisha · 📧 [saswatsomya111@gmail.com](mailto:saswatsomya111@gmail.com) · [LinkedIn](https://linkedin.com/in/saswatsomyasahu)
@@ -17,34 +17,36 @@ Junior developer with **2+ years at NIELIT Bhubaneswar** building enterprise MIS
 
 | | |
 |---|---|
-| **Main portfolio repo** | [github.com/saswatsomyasahu/saswat](https://github.com/saswatsomyasahu/saswat) |
-| **Portfolio website** | [saswatsomyasahu.github.io/saswat](https://saswatsomyasahu.github.io/saswat/) |
-| **Cloud API (Docker + CI)** | [projects/cloud-api](https://github.com/saswatsomyasahu/saswat/tree/main/projects/cloud-api) |
-| **Document AI (RAG)** | [projects/document-ai-assistant](https://github.com/saswatsomyasahu/saswat/tree/main/projects/document-ai-assistant) |
+| **🌐 Live portfolio** | [**saswatsomyasahu.github.io/saswat**](https://saswatsomyasahu.github.io/saswat/) |
+| **📂 All projects (details)** | [Project pages](https://saswatsomyasahu.github.io/saswat/projects/) |
+| **Main repo** | [github.com/saswatsomyasahu/saswat](https://github.com/saswatsomyasahu/saswat) |
+| **Cloud API (Docker + CI)** | [cloud-api](https://github.com/saswatsomyasahu/saswat/tree/main/projects/cloud-api) |
+| **Document AI (RAG)** | [document-ai-assistant](https://github.com/saswatsomyasahu/saswat/tree/main/projects/document-ai-assistant) |
 
 ---
 
 ### 🛠 Tech
 
 `PHP` · `Laravel` · `MySQL` · `MongoDB` · `JavaScript` · `Node.js` · `Express` · `React` · `Python` · `Django` · `FastAPI`  
-`Linux` · `AWS` · `Docker` · `Git` · `REST APIs` · `Razorpay/webhooks` · `RBAC`  
-`TensorFlow` · `LLM APIs` · `RAG` · networking & server ops
+`Linux` · `AWS` · `Docker` · `Git` · `GitHub Actions` · `REST APIs` · `Razorpay` · `RBAC`  
+`LLM APIs` · `RAG` · `ChromaDB` · server & networking
 
 ---
 
 ### 💼 Highlights
 
-- **Student MIS** — 7,000+ registrations; roles, batches, schemes, PDF/Excel reporting  
+- **Student MIS** — 7,000+ registrations; RBAC, batches, schemes, PDF/Excel reporting  
 - **Payment portal** — Razorpay, webhooks, signed hub integration  
 - **Exam operations** — 15,000+ candidates; server readiness & live support  
-- **OMR / IoT** — Android OMR checking; weather station dashboard (Node + React)
+- **OMR / IoT** — Android OMR checking; weather station (Node + React)  
+- **Open source** — Dockerized Node API + FastAPI RAG on GitHub  
 
 ---
 
 ### 📈 Currently learning
 
-AWS Solutions Architect path · Laravel · production **MLOps / cloud AI** deployments
+AWS Solutions Architect · production **cloud AI** deployments
 
 ---
 
-⭐️ From [saswat](https://github.com/saswatsomyasahu/saswat) — public code samples (not production NIELIT sources)
+⭐️ Code on [saswat](https://github.com/saswatsomyasahu/saswat) — public demos only (not proprietary NIELIT sources)
