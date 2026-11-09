@@ -119,37 +119,35 @@ body {
   letter-spacing: -0.03em;
 }
 
-.profile-ring {
+.profile-wrap {
   position: relative;
-  width: min(300px, 75vw);
+  width: min(280px, 72vw);
   aspect-ratio: 1;
-  padding: 5px;
-  border-radius: 50%;
-  background: conic-gradient(from 180deg, var(--accent), var(--accent-2), var(--accent-3), var(--accent));
-  animation: spin-slow 12s linear infinite;
 }
 
-.profile-ring::after {
-  content: "";
+/* Static frame only — must NOT rotate (rotation was flipping the photo). */
+.profile-ring {
   position: absolute;
-  inset: 5px;
+  inset: 0;
   border-radius: 50%;
-  background: var(--bg-deep);
+  background: linear-gradient(145deg, var(--accent), var(--accent-2), var(--accent-3));
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    0 12px 40px rgba(0, 229, 200, 0.2);
+  pointer-events: none;
 }
 
 .profile-img {
   position: relative;
   z-index: 1;
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  margin: 5px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 12%;
   border-radius: 50%;
-  border: 4px solid var(--bg-deep);
-}
-
-@keyframes spin-slow {
-  to { transform: rotate(360deg); }
+  background: transparent;
 }
 
 .orbit-badge {
@@ -508,7 +506,4 @@ body {
     transition-duration: 0.01ms !important;
   }
 
-  .profile-ring {
-    animation: none;
-  }
 }

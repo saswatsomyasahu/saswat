@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/saswatsomyasahu/saswat/main/docs/assets/profile.png" width="220" alt="Saswat Somya Sahu" />
+  <img src="https://raw.githubusercontent.com/saswatsomyasahu/saswat/main/docs/assets/profile-transparent.png" width="220" alt="Saswat Somya Sahu" />
 </div>
 
 # Hi, I'm Saswat Somya Sahu 👋
