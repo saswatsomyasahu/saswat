@@ -26,7 +26,12 @@ cp .env.example .env
 uvicorn app.main:app --reload
 ```
 
-API docs: http://127.0.0.1:8000/docs
+**Web UI:** http://127.0.0.1:8000/ (after `uvicorn` is running)  
+**API docs:** http://127.0.0.1:8000/docs
+
+> **Note:** There is no public cloud URL yet — GitHub only hosts the **source code**.  
+> Portfolio explain page (after GitHub Pages is on):  
+> https://saswatsomyasahu.github.io/saswat/demos/document-ai-assistant/
 
 ## Try it
 

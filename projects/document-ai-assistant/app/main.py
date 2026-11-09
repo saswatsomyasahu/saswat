@@ -5,6 +5,8 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.responses import RedirectResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from app.rag import chat_with_documents, ingest_pdf
@@ -19,6 +21,17 @@ app = FastAPI(
 
 UPLOAD_DIR = Path("./data/uploads")
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
+STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+if STATIC_DIR.is_dir():
+    app.mount("/ui", StaticFiles(directory=str(STATIC_DIR), html=True), name="ui-static")
+
+
+@app.get("/", include_in_schema=False)
+def root_ui():
+    if STATIC_DIR.is_dir():
+        return RedirectResponse(url="/ui/index.html")
+    return RedirectResponse(url="/docs")
 
 
 class ChatRequest(BaseModel):
