@@ -26,7 +26,7 @@ Junior developer with **2+ years at NIELIT Bhubaneswar** building enterprise MIS
 
 ### 🛠 Tech
 
-`PHP` · `MySQL` · `JavaScript` · `Node.js` · `Express` · `React` · `Python` · `FastAPI`  
+`PHP` · `Laravel` · `MySQL` · `MongoDB` · `JavaScript` · `Node.js` · `Express` · `React` · `Python` · `Django` · `FastAPI`  
 `Linux` · `AWS` · `Docker` · `Git` · `REST APIs` · `Razorpay/webhooks` · `RBAC`  
 `TensorFlow` · `LLM APIs` · `RAG` · networking & server ops
 

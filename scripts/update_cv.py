@@ -25,10 +25,10 @@ SKILLS = {
     6: "Programming: PHP, JavaScript, Node.js, Python, Java, SQL",
     7: "Frontend: HTML, CSS, Bootstrap, React.js",
     8: (
-        "Backend and APIs: PHP, Node.js, Express.js, FastAPI, REST APIs, Webhooks, JWT, "
-        "Role-Based Access Control"
+        "Backend and APIs: PHP, Laravel, Node.js, Express.js, Python, Django, FastAPI, REST APIs, "
+        "Webhooks, JWT, Role-Based Access Control"
     ),
-    9: "Database: MySQL, MongoDB, Schema Design, Migrations",
+    9: "Database: MySQL, MongoDB, Schema Design, Migrations, SQL",
     10: (
         "Libraries and Integrations: Razorpay, PHPMailer (SMTP), TCPDF, PhpSpreadsheet, "
         "Biometric (SecuGen) APIs, OpenAI/LLM APIs, ChromaDB (RAG)"
