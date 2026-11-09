@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saswatsomyasahu.github.io/saswat/sitemap.xml

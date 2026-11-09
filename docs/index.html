@@ -1,134 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Saswat Somya Sahu — Software Developer, Cloud & AI. Portfolio and open-source demos." />
-  <meta property="og:title" content="Saswat Somya Sahu | Developer Portfolio" />
-  <meta property="og:description" content="Software Developer — PHP, Node.js, Cloud &amp; AI. NIELIT enterprise systems &amp; open-source demos." />
+  <title>Saswat Somya Sahu | PHP & Node.js Developer | Cloud, DevOps & AI Portfolio</title>
+  <meta name="description" content="Saswat Somya Sahu — Remote-ready Full Stack Developer (PHP, MySQL, Node.js, React). NIELIT enterprise MIS, payments & exam servers. Open-source Cloud API, Docker, CI/CD & RAG AI demos. Bhubaneswar, India." />
+  <meta name="keywords" content="PHP developer, Laravel developer India, Node.js developer remote, full stack developer, DevOps engineer junior, cloud engineer AWS, AI application developer, RAG FastAPI, Docker portfolio, software developer NIELIT, Razorpay integration, remote developer Odisha" />
+  <meta name="author" content="Saswat Somya Sahu" />
+  <link rel="canonical" href="https://saswatsomyasahu.github.io/saswat/" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://saswatsomyasahu.github.io/saswat/" />
+  <meta property="og:title" content="Saswat Somya Sahu — Cloud, Full Stack & AI Developer" />
+  <meta property="og:description" content="Enterprise PHP/Node systems + Docker, AWS, GitHub Actions & LLM RAG projects. Open to remote work." />
   <meta property="og:image" content="https://saswatsomyasahu.github.io/saswat/assets/profile.png" />
-  <title>Saswat Somya Sahu | Developer Portfolio</title>
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Saswat Somya Sahu | Developer Portfolio" />
+  <meta name="twitter:description" content="PHP, Node.js, Cloud &amp; AI — portfolio with open-source demos." />
+  <meta name="twitter:image" content="https://saswatsomyasahu.github.io/saswat/assets/profile.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Saswat Somya Sahu",
+    "jobTitle": "Software Developer",
+    "description": "Full Stack PHP and Node.js developer with cloud, DevOps and AI application experience.",
+    "email": "saswatsomya111@gmail.com",
+    "telephone": "+91-7653814034",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bhubaneswar",
+      "addressRegion": "Odisha",
+      "addressCountry": "IN"
+    },
+    "url": "https://saswatsomyasahu.github.io/saswat/",
+    "sameAs": [
+      "https://www.linkedin.com/in/saswatsomyasahu",
+      "https://github.com/saswatsomyasahu"
+    ],
+    "knowsAbout": ["PHP", "Node.js", "React", "AWS", "Docker", "FastAPI", "RAG", "MySQL", "DevOps"]
+  }
+  </script>
 </head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="#">SS</a>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-cta" href="https://github.com/saswatsomyasahu/saswat" target="_blank" rel="noopener">GitHub</a>
-    </nav>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold font-mono" href="#home">
+        <span class="brand-dot"></span> Saswat.dev
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-accent btn-sm px-3" href="https://github.com/saswatsomyasahu/saswat" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github me-1"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 text-center position-relative" data-aos="zoom-in" data-aos-duration="800">
+          <div class="profile-ring mx-auto mb-4">
+            <img src="assets/profile.png" alt="Saswat Somya Sahu — Full Stack and Cloud Developer" class="profile-img" width="300" height="300" fetchpriority="high" />
+          </div>
+          <span class="orbit-badge orbit-1" aria-hidden="true"><i class="bi bi-cloud-fill"></i></span>
+          <span class="orbit-badge orbit-2" aria-hidden="true"><i class="bi bi-robot"></i></span>
+          <span class="orbit-badge orbit-3" aria-hidden="true"><i class="bi bi-code-slash"></i></span>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="900">
+          <span class="badge rounded-pill status-pill mb-3">
+            <span class="pulse-dot"></span> Open to remote · India
+          </span>
+          <h1 class="display-4 fw-bold hero-title mb-2">Saswat Somya Sahu</h1>
+          <p class="h5 text-secondary mb-3">
+            I build <span id="typewriter" class="text-gradient font-mono" aria-live="polite"></span><span class="type-cursor font-mono">|</span>
+          </p>
+          <p class="lead text-body-secondary mb-4">
+            <strong class="text-light">2+ years at NIELIT</strong> — enterprise PHP/MySQL MIS, Razorpay payments, exam servers for <strong>15,000+</strong> candidates.
+            Public demos: <strong>Docker</strong>, <strong>GitHub Actions</strong>, and <strong>RAG / LLM</strong> APIs on GitHub.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <a href="#projects" class="btn btn-accent btn-lg"><i class="bi bi-lightning-charge-fill me-1"></i> View projects</a>
+            <a href="https://www.linkedin.com/in/saswatsomyasahu" class="btn btn-outline-light btn-lg" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin me-1"></i> LinkedIn</a>
+            <a href="mailto:saswatsomya111@gmail.com" class="btn btn-outline-light btn-lg"><i class="bi bi-envelope me-1"></i> Email</a>
+          </div>
+          <div class="keyword-marquee" aria-hidden="true">
+            <div class="marquee-track">
+              <span>PHP</span><span>Laravel</span><span>Node.js</span><span>React</span><span>MySQL</span><span>AWS EC2</span><span>Docker</span><span>CI/CD</span><span>FastAPI</span><span>RAG</span><span>LLM</span><span>REST API</span><span>DevOps</span><span>Linux</span><span>Remote</span>
+              <span>PHP</span><span>Laravel</span><span>Node.js</span><span>React</span><span>MySQL</span><span>AWS EC2</span><span>Docker</span><span>CI/CD</span><span>FastAPI</span><span>RAG</span><span>LLM</span><span>REST API</span><span>DevOps</span><span>Linux</span><span>Remote</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-3 mt-2 stats-row" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-6 col-md-3">
+          <div class="stat-card text-center">
+            <div class="stat-value"><span class="counter" data-target="7000">0</span>+</div>
+            <div class="stat-label">MIS registrations</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card text-center">
+            <div class="stat-value"><span class="counter" data-target="15000">0</span>+</div>
+            <div class="stat-label">Exam candidates served</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card text-center">
+            <div class="stat-value"><span class="counter" data-target="2">0</span></div>
+            <div class="stat-label">Cloud &amp; AI demos</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card text-center">
+            <div class="stat-value font-mono">2+</div>
+            <div class="stat-label">Years production IT</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-photo-wrap">
-          <img
-            class="hero-photo"
-            src="assets/profile.png"
-            alt="Saswat Somya Sahu — professional photo"
-            width="280"
-            height="280"
-            fetchpriority="high"
-          />
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-tag font-mono">// about</span>
+          <h2 class="section-title">Engineer at the edge of <span class="text-gradient">web · cloud · AI</span></h2>
         </div>
-        <div class="hero-content">
-          <p class="badge">Open to remote · India</p>
-          <h1>Saswat Somya Sahu</h1>
-          <p class="tagline">Software Developer · PHP, Node.js, React · <span class="accent">Cloud &amp; AI</span></p>
-          <p class="lead">
-            I build enterprise web systems and run production servers — now showcasing that work through
-            open demos: Dockerized APIs, CI/CD, and RAG document assistants.
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">View projects</a>
-            <a class="btn ghost" href="https://www.linkedin.com/in/saswatsomyasahu" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn ghost" href="mailto:saswatsomya111@gmail.com">Email</a>
+        <div class="row g-4">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card h-100">
+              <div class="icon-wrap mb-3"><i class="bi bi-building"></i></div>
+              <h3 class="h5">Enterprise delivery</h3>
+              <p class="text-body-secondary">Junior Software Developer at <strong>NIELIT Bhubaneswar</strong> — student MIS, payment hubs, multi-centre admissions, biometrics, and government scheme reporting.</p>
+              <ul class="text-body-secondary small mb-0">
+                <li>Role-based access control (RBAC)</li>
+                <li>Razorpay webhooks &amp; signed APIs</li>
+                <li>PDF / Excel automation at scale</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card h-100 ai-card">
+              <div class="icon-wrap mb-3 ai-glow"><i class="bi bi-stars"></i></div>
+              <h3 class="h5">Cloud &amp; AI portfolio</h3>
+              <p class="text-body-secondary">Open-source repos recruiters can run: containerized <strong>Node.js API</strong> with CI and a <strong>FastAPI RAG</strong> assistant (ChromaDB + LLM).</p>
+              <p class="mb-0 small font-mono text-accent">github.com/saswatsomyasahu/saswat</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <h2>About</h2>
-      <div class="about-grid">
-        <div class="card">
-          <h3>Experience</h3>
-          <p><strong>NIELIT Bhubaneswar</strong> — Junior Software Developer (2025–present) and Technical Assistant (2024–2025).</p>
-          <ul>
-            <li>Student MIS with <strong>7,000+</strong> registered candidates</li>
-            <li>Razorpay payment portal with webhooks &amp; signed APIs</li>
-            <li>Exam server ops for <strong>15,000+</strong> online candidates</li>
-          </ul>
+    <section id="experience" class="section-padding bg-section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-tag font-mono">// experience</span>
+          <h2 class="section-title">Professional timeline</h2>
         </div>
-        <div class="card">
-          <h3>Direction</h3>
-          <p>Targeting <strong>cloud / DevOps</strong> and <strong>AI application</strong> roles — the same stack I use in these portfolio repos:</p>
-          <ul>
-            <li>AWS EC2, Docker, GitHub Actions</li>
-            <li>FastAPI, embeddings, LLM-powered Q&amp;A</li>
-            <li>Full-stack PHP/Node patterns (RBAC, REST, reporting)</li>
-          </ul>
+        <div class="timeline">
+          <article class="timeline-item" data-aos="fade-right">
+            <div class="timeline-marker"></div>
+            <div class="glass-card">
+              <span class="badge text-bg-dark border font-mono mb-2">Feb 2025 – Present</span>
+              <h3 class="h5">Junior Software Developer</h3>
+              <p class="text-accent small mb-2">NIELIT Bhubaneswar</p>
+              <p class="text-body-secondary small mb-0">PHP/MySQL MIS, Razorpay portal, batch &amp; scheme reporting, biometric integration, production support.</p>
+            </div>
+          </article>
+          <article class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+            <div class="timeline-marker"></div>
+            <div class="glass-card">
+              <span class="badge text-bg-dark border font-mono mb-2">Feb 2024 – Feb 2025</span>
+              <h3 class="h5">Junior Resource Person (Technical Assistant)</h3>
+              <p class="text-accent small mb-2">NIELIT · Exam &amp; residential servers</p>
+              <p class="text-body-secondary small mb-0">Linux servers, networking, backups, exam-day ops for thousands of candidates; external examiner duties.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <article class="project-card">
-          <span class="project-tag">Cloud / DevOps</span>
-          <h3><a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/cloud-api">Cloud API</a></h3>
-          <p>Express REST API with health checks, Docker, Compose, and GitHub Actions CI — ready for EC2 or Railway.</p>
-          <p class="stack">Node.js · Express · Docker · CI</p>
-        </article>
-        <article class="project-card">
-          <span class="project-tag">AI</span>
-          <h3><a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/document-ai-assistant">Document AI Assistant</a></h3>
-          <p>Upload PDFs, index with ChromaDB, answer questions via LLM — a portfolio-grade RAG service.</p>
-          <p class="stack">Python · FastAPI · ChromaDB · OpenAI API</p>
-        </article>
-        <article class="project-card muted">
-          <span class="project-tag">Planned</span>
-          <h3>Mini admission demo</h3>
-          <p>Public PHP/Laravel-style demo mirroring MIS patterns — registration, RBAC, payment status (no proprietary NIELIT code).</p>
-          <p class="stack">PHP · MySQL · Docker</p>
-        </article>
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-tag font-mono">// projects</span>
+          <h2 class="section-title">Featured work &amp; demos</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="0">
+            <article class="project-card h-100 position-relative">
+              <span class="project-label cloud"><i class="bi bi-cloud-arrow-up"></i> Cloud / DevOps</span>
+              <h3 class="h4 mt-3"><a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/cloud-api" class="stretched-link text-decoration-none text-light">Cloud API</a></h3>
+              <p class="text-body-secondary">Express REST API, Docker Compose, health checks, GitHub Actions — built for AWS EC2 or Railway deploy.</p>
+              <div class="chip-row font-mono"><span>Docker</span><span>Node.js</span><span>CI/CD</span></div>
+            </article>
+          </div>
+          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="100">
+            <article class="project-card h-100 ai-border position-relative">
+              <span class="project-label ai"><i class="bi bi-robot"></i> AI · RAG</span>
+              <h3 class="h4 mt-3"><a href="https://github.com/saswatsomyasahu/saswat/tree/main/projects/document-ai-assistant" class="stretched-link text-decoration-none text-light">Document AI Assistant</a></h3>
+              <p class="text-body-secondary">PDF upload, ChromaDB vectors, LLM Q&amp;A — FastAPI + Swagger. Your AI application engineer sample.</p>
+              <div class="chip-row font-mono"><span>FastAPI</span><span>ChromaDB</span><span>LLM</span></div>
+            </article>
+          </div>
+          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="200">
+            <article class="project-card h-100 position-relative">
+              <span class="project-label php"><i class="bi bi-database"></i> Enterprise</span>
+              <h3 class="h4 mt-3 text-light">NIELIT MIS &amp; Payments</h3>
+              <p class="text-body-secondary">Production systems (not public): 7k+ registrations, Razorpay hub, exam infra — patterns echoed in portfolio demos.</p>
+              <div class="chip-row font-mono"><span>PHP</span><span>MySQL</span><span>Razorpay</span></div>
+            </article>
+          </div>
+        </div>
+        <p class="text-center mt-4 text-body-secondary" data-aos="fade-up">
+          <a href="https://github.com/saswatsomyasahu/saswat" class="link-accent"><i class="bi bi-box-arrow-up-right me-1"></i> Full repository</a>
+        </p>
       </div>
-      <p class="repo-link">
-        All code: <a href="https://github.com/saswatsomyasahu/saswat">github.com/saswatsomyasahu/saswat</a>
-      </p>
     </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Node.js</span><span>React</span>
-        <span>Python</span><span>FastAPI</span><span>Linux</span><span>AWS</span><span>Docker</span>
-        <span>Git</span><span>REST APIs</span><span>Razorpay</span><span>RBAC</span><span>RAG / LLMs</span>
+    <section id="skills" class="section-padding bg-section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-tag font-mono">// skills</span>
+          <h2 class="section-title">Stack recruiters search for</h2>
+        </div>
+        <div class="row g-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
+            <h3 class="h6 text-secondary mb-3">Full stack</h3>
+            <div class="skills-cloud">
+              <span class="skill-pill" data-bs-toggle="tooltip" title="Production MIS">PHP</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">JWT / RBAC</span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="h6 text-secondary mb-3">Cloud · DevOps · AI</h3>
+            <div class="skills-cloud">
+              <span class="skill-pill highlight">AWS EC2</span>
+              <span class="skill-pill highlight">Docker</span>
+              <span class="skill-pill highlight">GitHub Actions</span>
+              <span class="skill-pill highlight">Linux</span>
+              <span class="skill-pill highlight-ai">FastAPI</span>
+              <span class="skill-pill highlight-ai">RAG / LLM</span>
+              <span class="skill-pill highlight-ai">Python</span>
+            </div>
+          </div>
+        </div>
+        <div class="progress-stack mt-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small font-mono mb-1"><span>PHP / MySQL systems</span><span>95%</span></div>
+            <div class="progress progress-glow"><div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small font-mono mb-1"><span>Node.js &amp; APIs</span><span>85%</span></div>
+            <div class="progress progress-glow"><div class="progress-bar bar-2" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+          </div>
+          <div class="mb-0">
+            <div class="d-flex justify-content-between small font-mono mb-1"><span>Cloud · Docker · AI apps</span><span>75%</span></div>
+            <div class="progress progress-glow"><div class="progress-bar bar-3" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <p>Bhubaneswar, Odisha · Remote preferred</p>
-      <ul class="contact-list">
-        <li><a href="mailto:saswatsomya111@gmail.com">saswatsomya111@gmail.com</a></li>
-        <li><a href="https://www.linkedin.com/in/saswatsomyasahu">linkedin.com/in/saswatsomyasahu</a></li>
-        <li><a href="https://github.com/saswatsomyasahu">github.com/saswatsomyasahu</a></li>
-      </ul>
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center" data-aos="zoom-in">
+            <span class="section-tag font-mono">// contact</span>
+            <h2 class="section-title mb-3">Let's build something</h2>
+            <p class="text-body-secondary mb-4">Remote-friendly · Full stack · Cloud support · AI applications · Bhubaneswar, India</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3 contact-actions">
+              <a href="mailto:saswatsomya111@gmail.com" class="btn btn-accent btn-lg"><i class="bi bi-envelope-at me-2"></i>saswatsomya111@gmail.com</a>
+              <a href="tel:+917653814034" class="btn btn-outline-light"><i class="bi bi-telephone me-2"></i>+91 76538 14034</a>
+            </div>
+            <div class="social-row mt-4">
+              <a href="https://www.linkedin.com/in/saswatsomyasahu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/saswatsomyasahu" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://github.com/saswatsomyasahu/saswat" target="_blank" rel="noopener noreferrer" aria-label="Portfolio repo"><i class="bi bi-folder2-open"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> Saswat Somya Sahu · <a href="https://github.com/saswatsomyasahu/saswat/blob/main/README.md">Repo README</a></p>
+  <footer class="footer py-4 text-center text-body-secondary small">
+    <div class="container">
+      <p class="mb-1">© <span id="year"></span> Saswat Somya Sahu · Software Developer | Cloud &amp; AI</p>
+      <p class="mb-0 font-mono">remote PHP developer · Node.js · DevOps junior · AI app engineer · India</p>
+    </div>
   </footer>
+
+  <button type="button" class="back-to-top btn btn-accent" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
