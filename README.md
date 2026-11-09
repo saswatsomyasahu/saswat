@@ -16,7 +16,7 @@ Public demos and infrastructure code that showcase enterprise web development, c
 |---|---------|-------|--------|
 | 1 | [Cloud API + Docker](./projects/cloud-api/) | Node.js, Express, Docker, GitHub Actions | Starter — deploy to EC2 |
 | 2 | [Document AI Assistant (RAG)](./projects/document-ai-assistant/) | Python, FastAPI, ChromaDB, Docker | Starter — add API key & run |
-| 3 | Personal site (optional) | React or static | Planned |
+| 3 | [Portfolio website](./docs/) | Static HTML (GitHub Pages) | Enable Pages → `/docs` |
 
 ## Quick start (local)
 
@@ -51,7 +51,11 @@ git push -u origin main
 
 3. Pin this repo on your GitHub profile and add the link to your CV and LinkedIn.
 
-4. **Optional live demos:** deploy `cloud-api` to AWS EC2 or Railway; deploy `document-ai-assistant` behind Docker on the same host (see each project's `DEPLOY.md`).
+5. **Live site:** turn on GitHub Pages from the `/docs` folder — steps in [docs/GITHUB_PAGES.md](./docs/GITHUB_PAGES.md) → **https://saswatsomyasahu.github.io/saswat/**
+
+6. **Profile README:** copy [profile-readme/README.md](./profile-readme/README.md) into a new repo named `saswatsomyasahu` — see [profile-readme/SETUP.md](./profile-readme/SETUP.md).
+
+4. **Optional API demos:** deploy `cloud-api` to AWS EC2 or Railway; deploy `document-ai-assistant` behind Docker on the same host (see each project's `DEPLOY.md`).
 
 ## Roadmap
 
