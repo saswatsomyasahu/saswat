@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/saswatsomyasahu/saswat/main/docs/assets/profile.png" width="220" alt="Saswat Somya Sahu" />
+</div>
+
 # Hi, I'm Saswat Somya Sahu 👋
 
 **Software Developer | PHP, Node.js, React | Cloud & AI**
