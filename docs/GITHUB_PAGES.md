@@ -1,3 +1,19 @@
+# GitHub Pages — fix wrong site (README text) or 404
+
+## If you see plain README / `**bold**` markdown (not the dark portfolio)
+
+GitHub is publishing the **repo root**, not the `docs/` website.
+
+**Fix A (recommended):** Settings → Pages → **Source: GitHub Actions** → run workflow *Deploy portfolio to GitHub Pages*.
+
+**Fix B:** Settings → Pages → **Deploy from branch** → branch **main** → folder **`/docs`** (not `/` root).
+
+After save, wait 2–3 minutes and hard-refresh `https://saswatsomyasahu.github.io/saswat/`.
+
+A root `index.html` redirect to `docs/` is included as a temporary fallback if root deploy is selected by mistake.
+
+---
+
 # GitHub Pages — fix “site not found” (404)
 
 If **https://saswatsomyasahu.github.io/saswat/** shows *Site not found*, Pages is not enabled yet.
